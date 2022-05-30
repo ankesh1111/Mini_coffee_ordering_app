@@ -1,0 +1,76 @@
+
+#navbar{
+    display: flex;
+    float: right;
+}
+#navbar>button{
+    padding: 10px;
+    color:whitesmoke;
+    background-color:teal;
+    border: none;
+    width:60px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#coffee_count{
+    /* border: 1px solid red; */
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    height:30px;
+    width:30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+    margin-top: 20px;
+    padding-top: 30px;
+
+}
+#menu>div{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:300px;
+    height: 370px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(148,140,140);
+
+}
+img{
+    height: 200px;
+    width:95%;
+}
+a{
+   color:white;
+   background-color: teal;
+   margin-right: 20px;
+   padding: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+   text-align: center;
+
+}
+#add_to_bucket{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 100px;
+}
+p{
+    text-align: center;
+}
+h1{
+    margin-top: -10px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

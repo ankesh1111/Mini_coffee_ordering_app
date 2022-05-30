@@ -1,0 +1,41 @@
+
+#bucket{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    margin-top: 20px;
+}
+#bucket>div{
+    width:70%;
+    height: 200px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin: auto;
+    
+}
+p{
+    text-align: center;
+}
+img{
+   
+        height: 200px;
+        width:95%;
+   
+}
+#remove_coffee{
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    padding: 15px;
+    border: none;
+    margin-left:80px;
+    }
+    button{
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }

@@ -1,0 +1,18 @@
+
+#order-form{
+
+    margin-top: 30px;
+    padding: 15px;
+    margin-left: 400px;
+}
+ 
+#confirm{
+
+    background-color: teal;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width:180px
+}
